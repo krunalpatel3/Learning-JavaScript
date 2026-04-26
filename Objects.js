@@ -203,6 +203,17 @@ Person.prototype.nationality = "English";
 console.log("My Father's nationality:", myFatherUpdated.nationality);
 
 
+// Destructuring 
+const personSeven = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+const { firstName, lastName, eyeColor } = personSeven;
+console.log("First Name:", firstName);
+console.log("Last Name:", lastName);
 
+console.log("Eye Color:", eyeColor);
 
 
